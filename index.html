@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lynie Kuan — UI/UX Designer &amp; Graphic Designer</title>
+<meta name="description" content="Portfolio of Lynie Kuan — aspiring UI/UX Designer, Graphic Designer, and Virtual Assistant. Explore projects, design work, and skills.">
+<meta name="color-scheme" content="dark">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Lynie Kuan — UI/UX Designer & Graphic Designer">
+<meta property="og:description" content="Portfolio showcasing UI/UX design, graphic design, and virtual assistant work.">
+<meta property="og:type" content="website">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%230a0a0f'/%3E%3Ccircle cx='50' cy='50' r='16' fill='%237c5cff'/%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+
+<!-- custom cursor -->
+<div class="cursor-dot" aria-hidden="true"></div>
+<div class="cursor-ring" aria-hidden="true"></div>
+
+<!-- preloader -->
+<div id="preloader" aria-hidden="true">
+  <span class="preload-mark">LYNIE KUAN</span>
+  <div class="preload-bar"><span id="preload-fill"></span></div>
+</div>
+
+<!-- nav -->
+<header class="nav" id="site-nav">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-logo"><span class="dot"></span> Lynie Kuan</a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#timeline">Timeline</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="#contact" class="btn btn-ghost btn-sm magnetic">Let's talk</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobile-menu">
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#timeline">Timeline</a>
+  <a href="#contact">Contact</a>
+  <a href="#contact" class="btn btn-primary mm-cta">Let's talk</a>
+</div>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-canvas-wrap">
+      <canvas id="hero-canvas" aria-hidden="true"></canvas>
+    </div>
+    <div class="hero-grid-overlay" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <div class="hero-content">
+        <span class="hero-kicker"><span class="pulse"></span> Open to work — Design &amp; VA roles</span>
+        <h1 class="hero-title" id="hero-title">
+          <span class="line"><span class="line-inner">Hi, I'm</span></span>
+          <span class="line"><span class="line-inner accent-word">Lynie Kuan</span></span>
+        </h1>
+        <p class="hero-subtitle" id="hero-subtitle">
+          Aspiring UI/UX Designer <span class="sep">•</span> Graphic Designer <span class="sep">•</span> Virtual Assistant
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary magnetic">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>
+            View My Projects
+          </a>
+          <a href="assets/lynie-kuan-resume.pdf" download class="btn btn-ghost magnetic" id="resume-btn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v13"/><path d="M7 11l5 5 5-5"/><path d="M5 21h14"/></svg>
+            Download Resume
+          </a>
+          <a href="#contact" class="btn btn-ghost magnetic">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v14H7l-3 3V4z"/></svg>
+            Contact Me
+          </a>
+        </div>
+        <div class="hero-meta">
+          <div class="hm-item"><b id="meta-projects">—</b>Academic Projects</div>
+          <div class="hm-item"><b id="meta-skills">—</b>Core Skills</div>
+          <div class="hm-item"><b>PH</b>Based, open to remote</div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="wheel"><i></i></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="glow-blob" style="width:420px;height:420px;top:10%;left:-10%;background:var(--accent);"></div>
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual reveal">
+          <div class="glow-blob"></div>
+          <div class="about-card glass" id="about-card">
+            <span class="initials">LK</span>
+          </div>
+          <div class="about-tag glass t1">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+            Fast learner
+          </div>
+          <div class="about-tag glass t2">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.6 5.8L21 9.6l-4.5 4.1L17.6 21 12 17.6 6.4 21l1.1-7.3L3 9.6l6.4-.8z"/></svg>
+            Detail-oriented
+          </div>
+        </div>
+        <div class="about-text">
+          <div class="eyebrow">About Me</div>
+          <h2 class="section-title reveal">Designing calm, useful <span class="accent-word">interfaces</span> — one careful detail at a time.</h2>
+          <p class="about-lede reveal">
+            I am an aspiring designer who enjoys creating clean, user-friendly, and visually appealing digital experiences. During my academic journey, I worked on multiple UI/UX, graphic design, and web projects that strengthened my creativity, problem-solving skills, and attention to detail. I am eager to learn, grow, and contribute to a professional team.
+          </p>
+          <div class="about-stats reveal">
+            <div class="stat"><div class="num" id="stat-projects">0</div><div class="label">Academic Projects</div></div>
+            <div class="stat"><div class="num" id="stat-skills">0</div><div class="label">Design &amp; Tech Skills</div></div>
+            <div class="stat"><div class="num" id="stat-gallery">0</div><div class="label">Gallery Pieces</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Skills</div>
+        <h2 class="section-title reveal">A toolkit built for <span class="accent-word">design</span> and <span class="accent-word">delivery</span>.</h2>
+        <p class="section-desc reveal">From wireframe to polished mockup, and from inbox to spreadsheet — tools I use to get real work shipped.</p>
+      </div>
+      <div class="skills-grid" id="skills-grid"></div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="glow-blob" style="width:460px;height:460px;top:0%;right:-12%;background:var(--accent);"></div>
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Academic Projects</div>
+        <h2 class="section-title reveal">Selected coursework, built to <span class="accent-word">solve real problems</span>.</h2>
+        <p class="section-desc reveal">Systems and interfaces designed and built during my studies — covering UX flows, UI design, and front-end implementation.</p>
+      </div>
+      <div class="projects-grid" id="projects-grid"></div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="section" id="gallery">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Design Gallery</div>
+        <h2 class="section-title reveal">Canva &amp; Figma <span class="accent-word">explorations</span>.</h2>
+        <p class="section-desc reveal">A mix of posters, social content, UI explorations, logos, and presentation decks. Pick a category, then a project, to browse its full set of screens.</p>
+      </div>
+      <div class="gallery-filters" id="gallery-filters"></div>
+      <div class="masonry" id="gallery-grid"></div>
+    </div>
+  </section>
+
+  <!-- TIMELINE -->
+  <section class="section" id="timeline">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Timeline</div>
+        <h2 class="section-title reveal">How I got <span class="accent-word">here</span>.</h2>
+        <p class="section-desc reveal">Education, projects, certifications, and the skills picked up along the way — in order.</p>
+      </div>
+      <div class="timeline" id="timeline-list"></div>
+    </div>
+  </section>
+
+  <!-- WHY HIRE ME -->
+  <section class="section" id="why-hire-me">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Why Hire Me</div>
+        <h2 class="section-title reveal">What I <span class="accent-word">bring</span> to a team.</h2>
+      </div>
+      <div class="why-grid" id="why-grid"></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="glow-blob" style="width:500px;height:500px;bottom:-10%;left:-10%;background:var(--accent);"></div>
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Contact</div>
+        <h2 class="section-title reveal">Let's build something <span class="accent-word">good</span> together.</h2>
+        <p class="section-desc reveal">Have a role in mind, or just want to say hi? Send a message — I read every one.</p>
+      </div>
+      <div class="contact-panel glass reveal">
+        <div class="contact-form-col">
+          <form id="contact-form" novalidate>
+            <div class="field" id="field-name">
+              <label for="cf-name">Name</label>
+              <input type="text" id="cf-name" name="name" autocomplete="name" placeholder="Your full name">
+              <span class="err">Please enter your name.</span>
+            </div>
+            <div class="field" id="field-email">
+              <label for="cf-email">Email</label>
+              <input type="email" id="cf-email" name="email" autocomplete="email" placeholder="you@email.com">
+              <span class="err">Please enter a valid email address.</span>
+            </div>
+            <div class="field" id="field-message">
+              <label for="cf-message">Message</label>
+              <textarea id="cf-message" name="message" placeholder="Tell me about the role or project..."></textarea>
+              <span class="err">Please write a short message.</span>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block magnetic" id="cf-submit">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13"/><path d="M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+              Send Message
+            </button>
+            <p class="form-status" id="cf-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+        <div class="contact-info-col">
+          <div>
+            <div class="ci-label">Direct contact</div>
+            <div class="contact-links" id="contact-links"></div>
+          </div>
+          <p class="ci-note">Based in the Philippines, open to remote and on-site opportunities. Typically replies within 1–2 business days.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Gallery preview">
+  <button class="lightbox-close" id="lb-close" aria-label="Close preview">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><line x1="5" y1="5" x2="19" y2="19"/><line x1="19" y1="5" x2="5" y2="19"/></svg>
+  </button>
+  <button class="lightbox-nav prev" id="lb-prev" aria-label="Previous piece">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+  </button>
+  <button class="lightbox-nav next" id="lb-next" aria-label="Next piece">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+  </button>
+  <div class="lightbox-body">
+    <div class="lightbox-frame" id="lb-frame"></div>
+    <div class="lightbox-caption">
+      <div class="lc-title" id="lb-title"></div>
+      <div class="lc-cat" id="lb-cat"></div>
+      <div class="lightbox-hint" id="lb-hint">Click the image to zoom in</div>
+    </div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <a href="#hero" class="back-to-top magnetic" aria-label="Back to top">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5"/><path d="M5 12l7-7 7 7"/></svg>
+      </a>
+    </div>
+    <div class="footer-inner">
+      <p class="footer-copy">Designed and developed by <b>Lynie Kuan</b> © 2026</p>
+      <div class="footer-social" id="footer-social"></div>
+    </div>
+  </div>
+</footer>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
