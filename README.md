@@ -1,9 +1,7 @@
 ## Hi there 👋
 
-🎨 UI/UX Designer
+UI/UX Design & Prototyping: Figma
 
-🖌️ Graphic Design: Canva
+Graphic Design: Canva
 
-🎯 UI/UX Design & Prototyping: Figma
-
-💻 Front-End Development: HTML, CSS, JavaScript, React
+Front-End Development: HTML, CSS, JavaScript, React
