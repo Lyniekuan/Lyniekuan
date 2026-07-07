@@ -103,7 +103,7 @@ const DATA = {
     { title:"Slide Layout System",    cat:"Presentations", icon:"presentation", tall:false, images:[""] },
     { title:"Story Highlight Icons",  cat:"Social Media",  icon:"share",        tall:false, images:[""] },
     { title:"Minimal Poster Series",  cat:"Posters",       icon:"image",        tall:false,
-      images:["assets/images/BALANCE.jpg","assets/images/FOCUS.jpg","assets/images/GROWTH.jpg","assets/images/HORIZON.jpg","assets/images/FLOW.jpg","assets/images/SILENCE.jpg","assets/images/TIME.jpg","assets/images/ENERGY.jpg"] }
+      images:["assets/images/BALANCE.png","assets/images/FOCUS.png","assets/images/GROWTH.png","assets/images/HORIZON.png","assets/images/FLOW.png","assets/images/SILENCE.png","assets/images/TIME.png","assets/images/ENERGY.png"] }
   ],
 
   timeline: [
