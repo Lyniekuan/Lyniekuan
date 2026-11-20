@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lynie Kuan | Graphic Designer</title>
+<meta name="description" content="Portfolio of Lynie Kuan: posters, social media ads and faith-based designs.">
+<meta property="og:title" content="Lynie Kuan | Design Portfolio">
+<meta property="og:image" content="assets/img/thumb/distorted-reality.webp">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✦</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Figtree:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="nav">
+  <a href="#top" class="logo">LK</a>
+  <nav aria-label="Main"><a href="#work">Work</a><a href="#faith">Faith &amp; Church</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="hero-text">
+    <h1>Lynie<br>Kuan</h1>
+    <p class="roles">Graphic designer</p>
+    <p>I design posters and social media ads that are bold, clear and easy to read at a glance.</p>
+    <p class="cta"><a class="btn" href="#work">View my work</a><a class="btn ghost" href="#contact">Hire me</a></p>
+  </div>
+  <div class="fan" aria-hidden="true">
+    <img src="assets/img/thumb/neoclassical.webp" alt="">
+    <img src="assets/img/thumb/bilami.webp" alt="">
+    <img src="assets/img/thumb/distorted-reality.webp" alt="">
+  </div>
+</section>
+
+<section id="work" class="block">
+  <div class="head"><h2>Selected work</h2><p>Posters, ads and experiments in type, colour and layout. Select a design to view it larger.</p></div>
+  <div class="grid" id="grid-work"></div>
+</section>
+
+<section id="faith" class="block faith">
+  <div class="head"><h2>Faith &amp; church design</h2><p>Event promotion and scripture graphics made for church and Christian audiences.</p></div>
+  <div class="grid" id="grid-faith"></div>
+</section>
+
+<section id="about" class="block about">
+  <div class="head"><h2>About</h2></div>
+  <div class="about-body">
+    <p>I'm Lynie, a designer who loves strong typography and expressive layouts. I work across graphic design.</p>
+    <ul class="services">
+      <li><strong>Graphic design</strong>Posters and social media ads</li>
+    </ul>
+  </div>
+</section>
+
+<section id="contact" class="block">
+  <div class="head"><h2>Let's work together</h2><p>Tell me about your project and I'll reply by email.</p></div>
+  <form id="form" class="form">
+    <label>Name<input name="name" required autocomplete="name"></label>
+    <label>Email<input name="email" type="email" required autocomplete="email"></label>
+    <label class="wide">Message<textarea name="msg" rows="5" required></textarea></label>
+    <button class="btn" type="submit">Send message</button>
+  </form>
+  <p class="direct">Prefer email? <a id="mail" href="#"></a></p>
+</section>
+</main>
+
+<footer><span>© <span id="yr"></span> Lynie Kuan</span><span id="social"></span></footer>
+
+<dialog id="lb" aria-label="Design viewer">
+  <button class="x" id="close" aria-label="Close">×</button>
+  <button class="nv prev" id="prev" aria-label="Previous design">‹</button>
+  <figure><img id="lb-img" alt=""><figcaption><h3 id="lb-title"></h3><p id="lb-desc"></p></figcaption></figure>
+  <button class="nv next" id="next" aria-label="Next design">›</button>
+</dialog>
+<script src="js/main.js"></script>
+</body>
+</html>
