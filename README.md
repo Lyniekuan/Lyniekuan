@@ -1,12 +1,17 @@
-# Lynie Kuan | Design Portfolio
+# Hello! 👋
 
-Static site (HTML, CSS, JS). No build step.
+I'm a Graphic Designer.
 
-## Publish on GitHub Pages
-1. Create a repo (e.g. `lynie-portfolio`) and upload everything in this folder.
-2. Repo **Settings > Pages** > Source: *Deploy from a branch* > `main` / `(root)` > Save.
-3. Your site goes live at `https://<username>.github.io/<repo>/`.
+## 🎨 About Me
+- Graphic Designer
+- Passionate about visual design and creativity
+- Interested in typography, layout, and branding
+- Always exploring new design techniques and ideas
 
-## Edit
-- Email and social links: top of `js/main.js`. The contact form opens the visitor's email app (opens a Gmail compose window).
-- Add a design: put `name.webp` in `assets/img/full/` (about 1600px) and `assets/img/thumb/` (about 720px), then add one line to `work` or `faith` in `js/main.js`.
+## 🛠️ Tools
+- Affinity
+- Canva
+
+---
+
+✨ Creating ideas through design.
